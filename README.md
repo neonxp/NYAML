@@ -7,10 +7,9 @@ License: GPLv2
 
 Example of correct NYAML file (test.nyaml):
 ------
-
-node 1
 <pre>
 <code>
+node 1
     #this is node 1
     value 1
     node 2:
@@ -26,7 +25,7 @@ test.php:
 ------
 <pre>
 <code>
-<?php
+&lt;?php
     include("nyaml.php");
     $nyaml = new nyaml();
     print_r($nyaml->file("test.nyaml"));
