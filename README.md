@@ -1,9 +1,9 @@
 NYAML (NotYAML) - YAML like markup language.
 =============
 
-It more clean and (in future :) ) more powerful than YAML.
-Author: Alexander "NeonXP" Kiryukhin (frei@neonxp.info)
-License: GPLv2
+It more clean and (in future :) ) more powerful than YAML.</br>
+Author: Alexander "NeonXP" Kiryukhin (frei@neonxp.info)</br>
+License: GPLv2</br>
 
 Example of correct NYAML file (test.nyaml):
 ------
