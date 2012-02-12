@@ -9,6 +9,7 @@ Example of correct NYAML file (test.nyaml):
 ------
 
 node 1:
+<code>
     #this is node 1
     value 1
     node 2:
@@ -18,18 +19,18 @@ node 1:
     node 3:
         key1: [elements, [of,array]]
         key2: "[this, is, not, array]"
-
+</code>
 test.php:
 ------
-
+<code>
 <?php
     include("nyaml.php");
     $nyaml = new nyaml();
     print_r($nyaml->file("test.nyaml"));
-
+</code>
 Result:
 ------
-
+<code>
 Array
 (
     [node 1] => Array
@@ -56,3 +57,4 @@ Array
                 )
         )
 )
+</code>
