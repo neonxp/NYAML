@@ -8,7 +8,8 @@ License: GPLv2
 Example of correct NYAML file (test.nyaml):
 ------
 
-node 1:
+node 1
+<pre>
 <code>
     #this is node 1
     value 1
@@ -20,16 +21,20 @@ node 1:
         key1: [elements, [of,array]]
         key2: "[this, is, not, array]"
 </code>
+</pre>
 test.php:
 ------
+<pre>
 <code>
 <?php
     include("nyaml.php");
     $nyaml = new nyaml();
     print_r($nyaml->file("test.nyaml"));
 </code>
+</pre>
 Result:
 ------
+<pre>
 <code>
 Array
 (
@@ -58,3 +63,4 @@ Array
         )
 )
 </code>
+</pre>
